@@ -1,0 +1,88 @@
+{
+  "name": "recommendo",
+  "version": "1.0.0",
+  "description": "Real time monitoring service",
+  "scripts": {
+    "lint": "next lint",
+    "test": "jest",
+    "dev": "cross-env NODE_ENV=development nodemon ./server/index.js --watch ./server/index.js",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
+    "start": "cross-env NODE_ENV=production node ./server/index.js"
+  },
+  "engines": {
+    "node": ">=14.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shopify/shopify-app-node.git"
+  },
+  "author": "Shopify Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shopify/shopify-app-node/issues"
+  },
+  "dependencies": {
+    "@babel/core": "7.18.5",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@shopify/app-bridge-react": "^3.1.1",
+    "@shopify/app-bridge-utils": "^3.1.1",
+    "@shopify/koa-shopify-auth": "^5.0.3",
+    "@shopify/koa-shopify-webhooks": "^5.0.1",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.27.2",
+    "chart.js": "^3.8.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "next": "^12.1.6",
+    "next-env": "^1.1.1",
+    "node-fetch": "^3.2.6",
+    "react": "^18.2.0",
+    "react-apollo": "^3.1.5",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-redux": "^8.0.2",
+    "webpack": "^5.73.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-stage-3": "^7.8.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "babel-jest": "28.1.1",
+    "babel-register": "^6.26.0",
+    "enzyme": "3.11.0",
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "husky": "^8.0.1",
+    "jest": "28.1.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.18",
+    "prettier": "2.7.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "18.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ]
+  }
+}

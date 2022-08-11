@@ -1,0 +1,90 @@
+.flexbox_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.fb_col_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.align_row_center {
+  align-items: center;
+}
+
+.flexbox_row {
+  display: flex;
+}
+
+.fb_row_center {
+  align-items: center;
+}
+
+.fb_item_center {
+  align-self: center;
+}
+
+.justify_self_center {
+  justify-self: center !important;
+}
+
+.fb_row_space_between {
+  justify-content: space-between;
+}
+
+.fb_row_space_evenly {
+  justify-content: space-evenly;
+}
+
+.fb_row_justify_center {
+  justify-content: center;
+}
+
+.horizontal_end {
+  margin-left: auto;
+}
+
+.page_center {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  margin-top: auto;
+}
+
+.grid_3_column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+.grid_4_column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: baseline;
+}
+
+.vertical_align_center {
+  vertical-align: middle;
+}
+
+.flex_1 {
+  flex: 1;
+}
+
+.row_span_1to3 {
+  grid-row: 1 / span 3;
+}
+
+.row_span_1to5 {
+  grid-row: 1 / span 5;
+}
+
+.column_span_2to3 {
+  grid-column: 2 / span 2;
+}

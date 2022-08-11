@@ -1,0 +1,34 @@
+@import url(./dashboard.css);
+@import url(./widgets.css);
+@import url(./confirmation.css);
+@import url(./text.css);
+@import url(./layout.css);
+@import url(./utilities.css);
+
+:root {
+  --theme_color: #00bdd6ff;
+  --text-color: #171a1fff;
+  --light-grey-color: #d3d3d33b;
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 60.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+.MuiSvgIcon-root {
+  color: var(--theme_color) !important;
+}

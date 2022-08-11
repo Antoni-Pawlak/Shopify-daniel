@@ -1,0 +1,126 @@
+.margin_block_large {
+  margin-block: 1.5rem !important;
+}
+
+.margin_inline_large {
+  margin-inline: 1.5rem !important;
+}
+
+.padding_inline_small {
+  padding-inline: 0.5rem !important;
+}
+
+.padding_block_sm {
+  padding-block: 0.5rem !important;
+}
+
+.margin_bottom_med {
+  margin-bottom: 1rem !important;
+}
+
+.margin_right_med {
+  margin-right: 1rem !important;
+}
+
+.margin_right_sm {
+  margin-right: 0.5rem;
+}
+
+.margin_right_extra_lg {
+  margin-right: 2rem !important;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.flex_row_end {
+  justify-content: flex-end;
+}
+
+.text_center {
+  text-align: center !important;
+}
+
+.neg_margin_top {
+  margin-top: -0.3rem !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.margin_top_small {
+  margin-top: 0.5rem !important;
+}
+
+.margin_block_med {
+  margin-block: 1rem !important;
+}
+
+.margin_bottom_large {
+  margin-bottom: 1.5rem !important;
+}
+
+.margin_bottom_sm {
+  margin-bottom: 0.5rem !important;
+}
+
+.padding_large {
+  padding: 1.5rem !important;
+}
+
+.padding_med {
+  padding: 1rem !important;
+}
+
+.padding_small {
+  padding: 0.5rem !important;
+}
+
+.margin_extra_large {
+  margin: 2rem !important;
+}
+
+.no_padding {
+  padding: 0 !important;
+}
+
+.white_bg {
+  background-color: white !important;
+}
+
+.margin_top_med {
+  margin-top: 1rem !important;
+}
+
+.lg_img {
+  max-width: 20rem;
+  height: auto;
+}
+
+.med_img {
+  max-width: 8rem;
+  height: auto;
+}
+
+.small_img {
+  max-width: 4rem;
+  height: auto;
+}
+
+.margin_left_small {
+  margin-left: 0.5rem !important;
+}
+
+.margin_inline_auto {
+  margin-inline: auto;
+  display: block;
+}
+
+.horizontal_ruler {
+  height: 0.1rem;
+  background-color: lightgray;
+  border-radius: 0.5rem;
+}
